@@ -90,8 +90,8 @@ bool ReadPointCloud(const std::string &filename,
         filename_ext = format;
     }
 
-    std::cout << "Format = " << format << std::endl;
-    std::cout << "Extension = " << filename_ext << std::endl;
+    // std::cout << "Format = " << format << std::endl;
+    // std::cout << "Extension = " << filename_ext << std::endl;
 
     if (filename_ext.empty()) {
         utility::LogWarning(
